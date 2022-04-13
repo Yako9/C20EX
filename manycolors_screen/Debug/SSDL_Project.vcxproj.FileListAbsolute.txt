@@ -1,0 +1,2 @@
+D:\Coding\Others\CPP20 Lazy Programmers\cpp20-for-lazy-programmers-master (1)\cpp20-for-lazy-programmers-master\newWork\basicSSDLProject\Debug\SSDL Project.exe
+D:\Coding\Others\CPP20 Lazy Programmers\cpp20-for-lazy-programmers-master (1)\cpp20-for-lazy-programmers-master\newWork\manycolors_screen\Debug\SSDL Project.exe
