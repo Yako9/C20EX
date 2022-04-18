@@ -90,7 +90,7 @@ int main(int argc, char** argv)
 	}
 
 	/*#########################################*/
-	SSDL_SetRenderDrawColor(BLUE);
+	//SSDL_SetRenderDrawColor(BLUE);
 
 	SSDL_RenderDrawLine(5, 115, 45, 155);
 	SSDL_RenderDrawLine(5, 116, 44, 155);
@@ -130,6 +130,16 @@ int main(int argc, char** argv)
 	}
 
 	/*#######################*/
+	/*         Text          */
+	/*#######################*/
+
+	SSDL_SetRenderDrawColor(WHITE);
+
+	const SSDL_Font VERDANA = SSDL_OpenSystemFont("verdana.ttf", 50);
+
+	//SSDL_SetFont(VERDANA);
+
+	SSDL_RenderText("STOP", 22, 50, VERDANA);
 
 
 
