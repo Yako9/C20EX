@@ -7,6 +7,15 @@ int main(int argc, char** argv)
 	//SSDL_RenderDrawLine(10, 50, 50, 10);
 	//SSDL_RenderDrawLine(11, 51, 51, 11);
 
+	SSDL_Color REDCOLOR = SSDL_CreateColor(255, 0, 0);
+	
+	SSDL_SetRenderDrawColor(REDCOLOR);
+
+	SSDL_RenderFillRect(5,7, 168, 149);
+
+	SSDL_SetRenderDrawColor(WHITE);
+
+
 	for (int i = 0; i < 20; i++)
 	{
 		//SSDL_RenderDrawLine(10 + i, 50 + i, 50 + i, 10 + i);
@@ -67,6 +76,30 @@ int main(int argc, char** argv)
 		SSDL_RenderDrawLine(165 - c, 45, 165 - c, 115);
 	}
 
+	/*#########################################*/
+
+	SSDL_SetRenderDrawColor(BLACK);
+
+
+	SSDL_RenderDrawLine(1, 2, 2, 1);
+	SSDL_RenderDrawLine(1, 3, 3, 1);
+
+	for (int g = 0; g < 53; g++)
+	{
+		SSDL_RenderDrawLine(1, 1+g, 1+g, 1);
+	}
+
+	/*#########################################*/
+	//SSDL_SetRenderDrawColor(BLUE);
+
+	SSDL_RenderDrawLine(5, 115, 45, 155);
+	SSDL_RenderDrawLine(5, 116, 44, 155);
+
+	for (int u = 0; u < 41; u++) {
+		SSDL_RenderDrawLine(5, 115+u, 45-u, 155);
+	}
+
+	/*#########################################*/
 
 	SSDL_WaitKey();
 
