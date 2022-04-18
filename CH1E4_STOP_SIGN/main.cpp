@@ -7,6 +7,10 @@ int main(int argc, char** argv)
 	//SSDL_RenderDrawLine(10, 50, 50, 10);
 	//SSDL_RenderDrawLine(11, 51, 51, 11);
 
+	SSDL_SetWindowSize(175, 175);
+
+	SSDL_SetWindowTitle("Stop sign");
+
 	SSDL_Color REDCOLOR = SSDL_CreateColor(255, 0, 0);
 	
 	SSDL_SetRenderDrawColor(REDCOLOR);
