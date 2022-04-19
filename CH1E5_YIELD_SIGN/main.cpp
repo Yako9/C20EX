@@ -5,9 +5,9 @@
 int main(int argc, char** argv)
 {	
 
+	SSDL_SetWindowTitle("Yield Sign");
 
-
-
+	SSDL_SetWindowSize(160, 120);
 
 
 	SSDL_RenderFillRect(7, 7, 147, 95);
@@ -71,9 +71,12 @@ int main(int argc, char** argv)
 	/*###########################*/
 
 
+	SSDL_SetRenderDrawColor(RED);
+
+	const SSDL_Font VERDANA = SSDL_OpenSystemFont("verdana.ttf", 25);
 
 
-
+	SSDL_RenderText("YIELD", 40, 20, VERDANA);
 
 
 
