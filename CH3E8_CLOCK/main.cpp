@@ -134,6 +134,7 @@ int main(int argc, char** argv)
 			}
 		}
 
+		//Wait 0.5 miliseconds before rendering the clock again
 		SSDL_Delay(50);
 
 	}
